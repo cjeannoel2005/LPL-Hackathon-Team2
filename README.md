@@ -47,6 +47,7 @@ Answer + Citations
 - AWS account with Bedrock access enabled
 - Python 3.9+
 - AWS CLI configured
+- **[Optional]** Claude Code for AI-assisted development - see [CLAUDE_CODE_SETUP.md](CLAUDE_CODE_SETUP.md)
 
 ### 1️⃣ Deploy AWS Infrastructure
 ```bash
@@ -223,7 +224,9 @@ aws sts get-caller-identity
 ## 📚 Documentation
 
 - **[QUICKSTART.md](QUICKSTART.md)** - Detailed setup instructions
+- **[CLAUDE_CODE_SETUP.md](CLAUDE_CODE_SETUP.md)** - Team setup guide for Claude Code in Cloud Shell
 - **[CLAUDE.md](CLAUDE.md)** - Developer guide for Claude Code
+- **[AWS_SETUP.md](AWS_SETUP.md)** - AWS account and Bedrock configuration
 - **[AWS Bedrock Docs](https://docs.aws.amazon.com/bedrock/)** - API reference
 
 ---
