@@ -18,3 +18,4 @@ venv/
 data/sample-docs/*
 !data/sample-docs/.gitkeep
 .streamlit/
+vector_store/
